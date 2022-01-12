@@ -1,0 +1,54 @@
+.banner-image {
+    text-align: center;
+    color: #f8f8f8;
+    background-image: url(../img/shopping-in.jpg);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#banner-content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    /*margin-left: -6%;*/
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 649px;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#lblCartCount {
+    background-color: red;
+    box-sizing: border-box;
+    border-radius: 1em;
+    color: #fff;
+    display: inline;
+    font-size: 9px;
+    left: 0;
+    margin-left: -5px;
+    padding: 2px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: -7px;
+}
+
+.panel-body {
+    padding: 30px;
+}
+
+.panel-footer {
+    padding: 20px 25px;
+    margin-top: -35px;
+}

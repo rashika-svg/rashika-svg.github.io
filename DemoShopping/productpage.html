@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Productpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/shopping.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/shopping.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a href="index.html" class="navbar-brand"> Lifestyle Store </a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#cart"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>
+                            <span class="total-count" id='lblCartCount'></span> Cart </a></li>
+                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button> -->
+                    <li><a href="Settings.html"><span class="glyphicon glyphicon-user"></span> Settings </a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class=" jumbotron ">
+            <h1>Welcome to our Lifestyle Store!</h1>
+            <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.
+            </p>
+        </div>
+        <div class=" row ">
+            <div class=" text-center ">
+                <div class=" col-md-3 col-sm-6 ">
+
+                    <div class=" thumbnail ">
+                        <img src=" img/5.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo " role=" button "></a>
+                        <div id=" demo " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Cannon EOS</h3>
+                        <p>Price: Rs.36000.00</p>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Cannon EOS " data-price=" 36000 "> Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/2.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo02 " role=" button "></a>
+                        <div id=" demo02 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Sony DSLR #1</h3>
+                        <p>Price: Rs.40000.00</p>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Sony DSLR #1 " data-price=" 40000 "> Add To Cart</button>
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/3.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo03 " role=" button "></a>
+                        <div id=" demo03 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Sony DSLR #2</h3>
+                        <p>Price: Rs.50000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Sony DSLR #2 " data-price=" 50000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/4.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo04 " role=" button "></a>
+                        <div id=" demo04 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Olympus DSLR</h3>
+                        <p>Price: Rs.80000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Olympus DSLR " data-price=" 80000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row ">
+            <div class=" text-center ">
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/9.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo05 " role=" button "></a>
+                        <div id=" demo05 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Titan Model #301</h3>
+                        <p>Price: Rs.13000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Titan Model #301 " data-price=" 13000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/10.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo06 " role=" button "></a>
+                        <div id=" demo06 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Titan Model #201</h3>
+                        <p>Price: Rs.3000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Titan Model #201 " data-price=" 3000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/11.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo07 " role=" button "></a>
+                        <div id=" demo07 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>HMT Milan</h3>
+                        <p>Price: Rs.8000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" HMT Milan " data-price=" 8000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/12.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo08 " role=" button "></a>
+                        <div id=" demo08 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Faber Luba #111</h3>
+                        <p>Price: Rs.18000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Faber Luba " data-price=" 18000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row ">
+            <div class=" text-center ">
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/9.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo09 " role=" button "></a>
+                        <div id=" demo09 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>H&W</h3>
+                        <p>Price: Rs.800.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" H&W " data-price=" 800 ">
+                            Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/6.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo10 " role=" button "></a>
+                        <div id=" demo10 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Luis Phil</h3>
+                        <p>Price: Rs.1000.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Luis Phil " data-price=" 1000 "> Add To Cart</button>
+                        <!-- <a href=" cart.html "><button class=" btn btn-primary btn-block "> Add To Cart</button></a> -->
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/13.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo11 " role=" button "></a>
+                        <div id=" demo11 " class=" collapse ">
+                            Here is the description of camera
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>John Zok</h3>
+                        <p>Price: Rs.1500.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" John Zok " data-price=" 1500 "> Add To Cart</button>
+                    </div>
+                </div>
+                <div class=" col-md-3 col-sm-6 ">
+                    <div class=" thumbnail ">
+                        <img src=" img/14.jpg ">
+                        <a class=" btn glyphicon glyphicon-chevron-down " data-toggle=" collapse " href=" #demo12 " role=" button "></a>
+                        <div id=" demo12 " class=" collapse ">
+                            Here is the description of shirt
+                            <ul>
+                                <li>dhvchjdbcd</li>
+                                <li>ncdbhbdkjv</li>
+                                <li>jdbhjdbvjdfv</li>
+                                <li>dnhvbhdbdfvdfhv</li>
+                            </ul>
+
+                        </div>
+                        <h3>Jhalsani</h3>
+                        <p>Price: Rs.1300.00</p>
+                        <button class=" add-to-cart btn btn-primary btn-block " data-name=" Jhalsani " data-price=" 1300 "> Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div><br><br><br><br>
+
+    <footer>
+        <div id=" footer ">
+            <center> “Copyright © Lifestyle Store. All Right Reserved” and “Contact Us: +91 90000 00000”
+            </center>
+        </div>
+    </footer><br>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="cart" tabindex=" -1 " role=" dialog " aria-labelledby=" exampleModalLabel " aria-hidden=" true ">
+        <div class=" modal-dialog modal-lg " role=" document ">
+            <div class=" modal-content ">
+                <div class=" modal-header ">
+                    <h5 class=" modal-title " id=" exampleModalLabel ">Cart</h5>
+                    <button type=" button " class=" close " data-dismiss=" modal " aria-label=" Close ">
+                        <span aria-hidden=" true ">&times;</span>
+                    </button>
+                </div>
+                <div class=" modal-body ">
+                    <table class=" show-cart table ">
+
+                    </table>
+                    <div>Total price: Rs<span class=" total-cart "></span></div>
+                </div>
+                <div class=" modal-footer ">
+                    <button type=" button " class=" btn btn-secondary " data-dismiss=" modal ">Close</button>
+                    <a href=" success.html "><button type=" button " class=" clear-cart btn btn-primary ">Order
+                            now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
